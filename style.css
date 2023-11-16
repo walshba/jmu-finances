@@ -124,4 +124,11 @@ a {
     color: rebeccapurple;
     text-decoration: none;
   }
+  img {
+    border: 5px dashed orange;
+  }
+}
+
+a img {
+  
 }

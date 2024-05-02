@@ -12,6 +12,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --jmu-purple: #450084;
 }
 
 /* a {
@@ -31,10 +33,13 @@ body {
   min-height: 100vh;
 }
 
-h1 {
+@custom-media --viewport-medium (width <= 50rem);
+@custom-selector :--heading h1, h2, h3, h4, h5, h6;
+
+:--heading {
   font-size: 3.2em;
   line-height: 1.1;
-  color: rebeccapurple;
+  color: var(--jmu-purple);
 }
 
 #app {
@@ -96,8 +101,6 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-@custom-media --viewport-medium (width <= 50rem);
-@custom-selector :--heading h1, h2, h3, h4, h5, h6;
 
 :root {
   --mainColor: #12345678;
@@ -110,7 +113,7 @@ body {
 }
 
 :--heading {
-  background-image: image-set(url(img/heading.png) 1x, url(img/heading@2x.png) 2x);
+  background-color: #eee;
 
   @media (--viewport-medium) {
     margin-block: 0;
@@ -121,7 +124,7 @@ a {
   color: rgb(0 0 100% / 90%);
 
   &:hover {
-    color: rebeccapurple;
+    color: var(--jmu-purple);
     text-decoration: none;
   }
   img {
@@ -129,6 +132,6 @@ a {
   }
 }
 
-a img {
-  
+a:has(> img) {
+  background-color: yellow;
 }

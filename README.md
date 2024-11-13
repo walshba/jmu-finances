@@ -9,7 +9,7 @@ Let's learn more about our institution while learning more about javascript and 
 
 ## Getting started with an npm project
 
-Note: this not about using 3p code in your own app
+Note: this not about using 3p code in your own app (final project)
 
 1. come to have the code (e.g. clone repo, as in preceding section)
 1. open a terminal in that directory (i.e. the one that has the `package.json` file), you will know this worked because you will see the `package.json` file when you run `ls` or `dir`

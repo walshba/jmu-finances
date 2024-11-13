@@ -14,6 +14,8 @@
     "vite": "^5.4.10"
   },
   "dependencies": {
+    "d3": "^7.9.0",
+    "d3-sankey": "^0.12.3",
     "postcss-preset-env": "^10.0.9"
   }
 }

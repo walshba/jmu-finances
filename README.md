@@ -53,7 +53,7 @@ We will make 4 Sankey diagrams (more details follow) using data from JMU which y
 1. leftmost node: Auxiliary Comprehensive Fee (or "Comprehensive Fee")
 1. rightmost nodes: the `Auxiliary Comprehensive Fee Component` costs from the `student-costs`
 
-### Sankey 3: JMU Athletics Revenues
+### Sankey 3: JMU Revenues
 1. leftmost nodes: JMU (positive) Revenue items
 1. second-to-leftmost nodes: JMU Revenue Categories (e.g. operating revenues, non-operating revenues, etc.)
 1. center node: JMU 
